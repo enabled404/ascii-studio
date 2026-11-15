@@ -1,0 +1,50 @@
+{
+  "name": "ascii-studio",
+  "private": true,
+  "version": "3.0.0",
+  "description": "Browser-native ASCII art generator with 105+ styles, 3D normal-mapped lighting, Web Audio reactivity, and 4K vector export.",
+  "author": "Saad Khalid (@saadkhalidhere)",
+  "license": "MIT",
+  "homepage": "https://asciipro.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enabled404/ascii-studio.git"
+  },
+  "keywords": [
+    "ascii",
+    "ascii-art",
+    "creative-coding",
+    "canvas",
+    "web-audio",
+    "retro-graphics",
+    "react",
+    "typescript"
+  ],
+  "type": "module",
+  "bin": {
+    "asciipro": "bin/asciipro.js",
+    "asciipro-mcp": "bin/mcp-server.js"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --port 4173 --host 127.0.0.1",
+    "selftest": "node scripts/selftest.mjs",
+    "record:demo": "node scripts/record-demo.mjs",
+    "mcp": "node bin/mcp-server.js",
+    "cli": "node bin/asciipro.js"
+  },
+  "dependencies": {
+    "gifenc": "^1.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "playwright": "^1.49.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}
