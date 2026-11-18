@@ -1,0 +1,22 @@
+{
+  "name": "@asciipro/mcp-server",
+  "version": "3.1.0",
+  "description": "Production-Grade Model Context Protocol (MCP) Server for ASCII Studio. Autonomous image-to-ASCII conversion, Figlet banners, 750+ animation library access, developer code exports, and mathematical visualizers.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "asciipro-mcp": "bin/mcp-server.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ascii",
+    "ascii-art",
+    "claude",
+    "cursor",
+    "antigravity",
+    "zed"
+  ],
+  "author": "Saad Khalid (@saadkhalidhere)",
+  "license": "MIT"
+}
