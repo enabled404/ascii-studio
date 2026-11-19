@@ -1,0 +1,67 @@
+{
+  "name": "ASCII Studio — Image & Video to ASCII Art",
+  "short_name": "ASCII Studio",
+  "description": "Free browser-native ASCII art generator with 105+ styles, 3D normal-mapped lights, Braille & ANSI terminal art, live audio reactivity, and 4K vector export.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#040406",
+  "theme_color": "#040406",
+  "developer": {
+    "name": "Saad Khalid (@saadkhalidhere)",
+    "url": "https://github.com/enabled404"
+  },
+  "categories": [
+    "photo",
+    "graphics",
+    "entertainment",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

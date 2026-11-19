@@ -1,0 +1,24 @@
+# ASCII Studio — Robots Directives
+# Primary: https://asciipro.vercel.app/
+# Aliases: https://asciiart-studio.vercel.app/ | https://ascii-studio-jade.vercel.app/
+
+User-agent: *
+Allow: /
+
+# Web Crawlers & Discovery
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Canonical Sitemap
+Sitemap: https://asciipro.vercel.app/sitemap.xml
+Sitemap: https://asciiart-studio.vercel.app/sitemap.xml
+Sitemap: https://ascii-studio-jade.vercel.app/sitemap.xml
